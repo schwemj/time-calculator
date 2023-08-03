@@ -4,7 +4,7 @@ This is a time calculator program written in Python3, which adds together two ti
 and returns the resulting time of day.
 
 To use it, call and print the add_time() function with a start time and a duration as arguments.
-If desired, enter a weekday in string-format as third argument. 
+If desired, enter a weekday in string-format as third argument (case insensitive). 
 
 Boundaries:
 
@@ -19,6 +19,10 @@ start = '12:30'
 duration = '30:20'
 
 start = '9:02' (alternatively '09:02')
+
+day = 'friDay'
+
+day = 'Friday'
 
 
 ---
